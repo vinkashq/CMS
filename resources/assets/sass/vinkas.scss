@@ -26,6 +26,15 @@ html {
 header {
     margin-bottom: 15px;
 }
+img.avatar {
+    border-radius: 50%;
+}
+.wrap {
+    max-width: 1110px;
+    margin-right: auto;
+    margin-left: auto;
+    padding: 0 8px;
+}
 
 .v-header {
     left: 0;
@@ -40,4 +49,48 @@ header {
     z-index: 1001;
     background-color: #fff;
     box-shadow: 0 2px 4px -1px rgba(0,0,0,0.25);
+}
+.docked .v-header {
+    position: fixed;
+    backface-visibility: hidden;
+}
+.v-header .title {
+    float: left;
+}
+.v-header .contents {
+    margin: 8px 0;
+}
+.wrap .contents {
+    position: relative;
+}
+.v-header .panel {
+    float: right;
+    position: relative;
+}
+.v-header .icons {
+    float: right;
+    text-align: center;
+    margin: 0 0 0 5px;
+    list-style: none;
+}
+.v-header .icons .icon {
+    display: block;
+    padding: 3px;
+    color: #999;
+    text-decoration: none;
+    cursor: pointer;
+    border-top: 1px solid transparent;
+    border-left: 1px solid transparent;
+    border-right: 1px solid transparent;
+    transition: all linear .15s;
+}
+.v-header .icons [class^="fa fa-"] {
+    width: 32px;
+    height: 32px;
+    font-size: 1.714em;
+    line-height: 32px;
+    display: inline-block;
+}
+.v-header .icons>li {
+    float: left;
 }

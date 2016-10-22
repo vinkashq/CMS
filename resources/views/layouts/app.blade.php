@@ -26,7 +26,7 @@
   ]); ?>
   </script>
 </head>
-<body>
+<body class="docked">
   <section id="main">
     @include('sections.header')
     <div id="main-outlet" class="wrap">

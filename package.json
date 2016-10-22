@@ -5,7 +5,6 @@
     "dev": "gulp watch"
   },
   "devDependencies": {
-    "material-design-lite": "^1.2.1",
     "bootstrap-sass": "^3.3.7",
     "font-awesome": "^4.6.3",
     "gulp": "^3.9.1",
