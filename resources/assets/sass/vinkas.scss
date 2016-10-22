@@ -1,0 +1,43 @@
+html {
+  color: #222;
+  font-family: Helvetica,Arial,sans-serif;
+  font-size: 14px;
+  line-height: 19px;
+  background-color: #fff;
+  overflow-y: scroll;
+  direction: ltr;
+}
+#main {
+  position: relative;
+}
+#offscreen-content {
+  display: none;
+}
+
+.clearfix:before, .nav-pills:before, .container:before, .wrap:before, .clearfix:after, .nav-pills:after, .container:after, .wrap:after {
+    display: table;
+    content: " ";
+}
+
+.clearfix:after, .nav-pills:after, .container:after, .wrap:after {
+    clear: both;
+}
+
+header {
+    margin-bottom: 15px;
+}
+
+.v-header {
+    left: 0;
+    z-index: 1000;
+    padding-top: 3px;
+    height: 60px;
+}
+.v-header {
+    width: 100%;
+    position: absolute;
+    top: 0;
+    z-index: 1001;
+    background-color: #fff;
+    box-shadow: 0 2px 4px -1px rgba(0,0,0,0.25);
+}

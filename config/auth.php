@@ -4,6 +4,21 @@ return [
 
     /*
     |--------------------------------------------------------------------------
+    | Authentication Server Defaults
+    |--------------------------------------------------------------------------
+    |
+    | Since our CMS will not handle authentication workflows itself we are
+    | recommanding to use Authv (https://github/authv/authv). And put it's
+    | configuration defaults here.
+    |
+    */
+
+    'server' => [
+        'url' => '',
+    ],
+
+    /*
+    |--------------------------------------------------------------------------
     | Authentication Defaults
     |--------------------------------------------------------------------------
     |
