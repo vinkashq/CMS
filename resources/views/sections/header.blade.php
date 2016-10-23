@@ -3,7 +3,11 @@
     <div class="contents clearfix">
       <div class="title">
         <a href="/">
-          <h2 id="site-text-logo" class="text-logo">{{ config('app.name') }}</h2>
+          @if(config('design.logo_url.default'))
+            <img src="{{ config('design.logo_url.default') }}" alt="{{ config('app.name') }}" id="site-logo" class="logo-big">
+          @else
+            <h2 id="site-text-logo" class="text-logo">{{ config('app.name') }}</h2>
+          @endif
         </a>
       </div>
       <div class="panel clearfix">
