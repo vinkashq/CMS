@@ -12,14 +12,7 @@
     </div>
   </div>
   <div class="col-md-5">
-    <div class="panel">
-      <div class="panel-heading">
-        <h2 class="panel-title">Vinkas CMS</h2>
-      </div>
-      <div class="panel-body">
-        <a href="https://github.com/vinkas0/CMS">GitHub</a>
-      </div>
-    </div>
+    @include('blocks.carousel')
   </div>
   <div class="col-md-4">
     <div class="panel panel-default">
