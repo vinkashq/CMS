@@ -6,7 +6,7 @@ window._ = require('lodash');
  */
 
 window.$ = window.jQuery = require('jquery');
-require('bootstrap-sass/assets/javascripts/bootstrap/dropdown');
+require('./vendor/bootstrap');
 
 /**
  * Vue is a modern JavaScript library for building interactive web interfaces

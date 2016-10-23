@@ -1,5 +1,5 @@
 <header class="v-header clearfix">
-  <div class="wrap">
+  <div class="container">
     <div class="contents clearfix">
       <div class="title">
         <a href="/">
