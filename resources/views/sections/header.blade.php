@@ -10,7 +10,7 @@
           @endif
         </a>
       </div>
-      <div class="panel clearfix">
+      <div class="v-panel clearfix">
         <span>
           @if (Route::has('login'))
               @if (Auth::check())
