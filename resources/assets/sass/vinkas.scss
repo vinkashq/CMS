@@ -1,3 +1,10 @@
+*, :after, :before {
+    box-sizing: initial;
+}
+ul, ol, dd {
+    margin: 0 0 9px 25px;
+    padding: 0;
+}
 html {
   color: #222;
   font-family: Helvetica,Arial,sans-serif;
@@ -6,6 +13,21 @@ html {
   background-color: #fff;
   overflow-y: scroll;
   direction: ltr;
+}
+body h1, body h2, body h3, body h4, body h5, body h6 {
+    margin: 0;
+}
+a {
+    color: #08c;
+    text-decoration: none;
+    cursor: pointer;
+    background: transparent;
+}
+a:hover {
+    text-decoration: none;
+}
+header {
+    margin-bottom: 15px;
 }
 #main {
   position: relative;
@@ -25,23 +47,14 @@ html {
 .clearfix:after, .nav-pills:after, .container:after, .wrap:after {
     clear: both;
 }
-a {
-    color: #08c;
-    text-decoration: none;
-    cursor: pointer;
-    background: transparent;
-}
-header {
-    margin-bottom: 15px;
-}
 img.avatar {
     border-radius: 50%;
 }
 .wrap {
-    max-width: 1110px;
     margin-right: auto;
     margin-left: auto;
     padding: 0 8px;
+    max-width: 1110px;
 }
 .btn-sm {
   border-radius: 0;
@@ -66,6 +79,12 @@ img.avatar {
 }
 .v-header .title {
     float: left;
+}
+.v-header .title a, .v-header .title a:visited {
+    color: #333;
+}
+header #site-text-logo {
+    line-height: 40px;
 }
 .v-header .contents {
     margin: 8px 0;
