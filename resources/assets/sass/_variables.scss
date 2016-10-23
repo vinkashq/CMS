@@ -1,6 +1,9 @@
 
-// Body
+// Backgrounds
 $body-bg: #ffffff;
+$header-bg: #ffffff;
+$footer-bg: darken($body-bg, 2%);
+$footer-bottom-bg: darken($footer-bg, 2%);
 
 // Borders
 $laravel-border-color: darken($body-bg, 5%);
