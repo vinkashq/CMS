@@ -113,6 +113,13 @@ header #site-text-logo {
     border-right: 1px solid transparent;
     transition: all linear .15s;
 }
+.v-header .icons .icon:hover {
+    color: #222;
+    background-color: #e9e9e9;
+    border-top: 1px solid transparent;
+    border-left: 1px solid transparent;
+    border-right: 1px solid transparent;
+}
 .v-header .icons [class^="fa fa-"] {
     width: 32px;
     height: 32px;
@@ -131,4 +138,25 @@ header #site-text-logo {
 }
 .v-header a.login-button {
     margin-left: 7px;
+}
+.menu-panel ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.menu-panel {
+    border: 1px solid #e9e9e9;
+    box-shadow: 0 2px 2px rgba(0,0,0,0.25);
+    background-color: #fff;
+    z-index: 1100;
+    padding: 0.5em;
+    width: 300px;
+}
+.menu-panel ul.menu-links li a, .menu-panel ul li.heading a {
+    padding: 0.25em 0.5em;
+    display: block;
+}
+.menu-links.columned li {
+    width: 50%;
+    float: left;
 }
