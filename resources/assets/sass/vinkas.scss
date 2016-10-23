@@ -56,9 +56,6 @@ img.avatar {
     padding: 0 8px;
     max-width: 1110px;
 }
-.btn-sm {
-  border-radius: 0;
-}
 .v-header {
     left: 0;
     z-index: 1000;
@@ -151,12 +148,26 @@ header #site-text-logo {
     z-index: 1100;
     padding: 0.5em;
     width: 300px;
+    margin-top: -1px;
 }
 .menu-panel ul.menu-links li a, .menu-panel ul li.heading a {
     padding: 0.25em 0.5em;
     display: block;
 }
+.menu-panel ul.menu-links li a:hover, .menu-panel ul li.heading a:hover {
+    background-color: #ffffa6;
+}
 .menu-links.columned li {
     width: 50%;
     float: left;
+}
+.v-header .icons .open .icon {
+    position: relative;
+    color: #7b7b7b;
+    background-color: #fff;
+    cursor: default;
+    border-top: 1px solid #e9e9e9;
+    border-left: 1px solid #e9e9e9;
+    border-right: 1px solid #e9e9e9;
+    z-index: 1101;
 }
