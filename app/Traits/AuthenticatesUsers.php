@@ -6,7 +6,7 @@ trait AuthenticatesUsers
 {
 
   protected function getSeverUrl() {
-    return url(config('auth.server_url'));
+    return url(config('auth.server.url'));
   }
 
   public function login() {

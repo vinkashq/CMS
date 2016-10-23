@@ -14,7 +14,7 @@ return [
     */
 
     'server' => [
-        'url' => '',
+        'url' => env('AUTH_SERVER_URL'),
     ],
 
     /*
